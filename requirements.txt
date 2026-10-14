@@ -1,0 +1,7 @@
+# Runtime dependencies. Before production, lock with hashes:
+#   pip-compile --generate-hashes requirements.txt -o requirements.lock
+# and install with: pip install --require-hashes -r requirements.lock
+mcp==2.2.0
+uvicorn==0.53.0
+google-auth[requests]>=2.40,<3
+requests>=2.32.4
